@@ -14,7 +14,7 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'MG_20170507_163210_edit.jpg'));
+  res.sendFile(path.join(__dirname, 'ui', 'IMG_20170507_163210_edit.jpg'));
 });
 
 
