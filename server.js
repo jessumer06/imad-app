@@ -25,6 +25,10 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
+app.get('/ui/main.js', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+});
+
 app.get('/ui/IMG_20170507_163210_edit.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'IMG_20170507_163210_edit.jpg'));
 });
